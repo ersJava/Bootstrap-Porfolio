@@ -12,7 +12,8 @@
   } */
 
   .p-3.mb-2.bg-primary.text-white {
-  background-image: url(just-waves.png); 
+  background-image: url(just-waves.png);
+  height: 100vh;
 
   }
 
