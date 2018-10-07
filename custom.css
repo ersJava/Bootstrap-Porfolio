@@ -1,20 +1,30 @@
+
 .navbar-brand.mb-0.h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: white;
     padding: 20px;
     font-size: 30px;
+    margin-top: 30px;
   }
   
-  /* .navbar-nav {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  .navbar.navbar-expand-sm.bg-white.navbar-light {
+    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #4aaaa5;
-  } */
+    margin-right: 15px;
+    The above modifications don't work :( */
+    margin-top: 10px;
+  }
 
   .p-3.mb-2.bg-primary.text-white {
   background-image: url(just-waves.png);
   height: 100vh;
+  }
 
+  .p-3.mb-2.bg-white.text-dark {
+    /* width: 130vh;
+    height: 80vh; */
+    /* margin-left: 10px; */
   }
 
   h1 {
@@ -25,6 +35,10 @@
   p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+  }
+
+  img {
+    margin: 5px;
   }
 
 
@@ -49,4 +63,17 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 10px;
     color: #cccccc;
+    padding: 30px;
+    padding-bottom: 5px;
   }
+
+  /* .border
+  { background-color: #666666;
+  width: 100%;
+  height: 30%;
+  color: #cccccc;
+  } 
+  */
+
+
+  /*  need to add padding to footer and margins to pictures */
